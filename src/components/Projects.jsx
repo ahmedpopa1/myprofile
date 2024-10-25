@@ -10,6 +10,9 @@ import l6 from "../assets/img/l6.png";
 import l7 from "../assets/img/l7.png";
 import l8 from "../assets/img/l8.png";
 import l9 from "../assets/img/l9.png";
+import l10 from "../assets/img/l10.jpg";
+import l11 from "../assets/img/l11.jpg";
+import l12 from "../assets/img/l12.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -47,7 +50,6 @@ export const Projects = () => {
       imgUrl: l6,
     },
     {
-   
       title: "Game Valley",
       description: "a website for games",
       imgUrl: l7,
@@ -58,8 +60,23 @@ export const Projects = () => {
       imgUrl: l8,
     },
     {
-      title: "My Profile :)",
-      description: "a website for My Profile :)",
+      title: "Calculator",
+      description: "an app for logic operation",
+      imgUrl: l10,
+    },
+    {
+      title: "Stopwatch",
+      description: "a timer application",
+      imgUrl: l11,
+    },
+    {
+      title: "Dashboard",
+      description: "Dashboard temp for react project",
+      imgUrl: l12,
+    },
+    {
+      title: "My Protfolio",
+      description: "popa profile",
       imgUrl: l9,
     },
   ];
