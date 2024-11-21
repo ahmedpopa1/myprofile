@@ -21,7 +21,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Blogging Sphere",
-      description: "a website for shaing thoughts and discover diffirent ideas",
+      description: "a website for sharing thoughts and discover diffirent ideas",
       imgUrl: l1,
     },
     {
