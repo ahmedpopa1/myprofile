@@ -40,11 +40,11 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>Mobile Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Mobile Development</h5>
+                  <h5>Web Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
