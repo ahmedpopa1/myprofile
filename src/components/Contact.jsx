@@ -49,6 +49,27 @@ export const Contact = () => {
   return (
     <section className="contact" id="connect">
       <Container>
+        <Row className="align-items-center mb-5">
+          <Col>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <h2>About Me</h2>
+                  <h3>
+                    Hello! I'm Ahmed Mahmoud, a passionate developer with expertise in building modern,
+                    responsive web applications And Mobile Applications. I enjoy solving challenging problems and creating intuitive
+                    designs. Feel free to reach out if you have any questions or opportunities to collaborate!
+                  </h3>
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+        </Row>
+
         <Row className="align-items-center">
           <Col size={12} md={6}>
             <TrackVisibility>
@@ -87,7 +108,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
-                          value={formDetails.lasttName}
+                          value={formDetails.lastName}
                           placeholder="Last Name"
                           onChange={(e) =>
                             onFormUpdate("lastName", e.target.value)

@@ -5,7 +5,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <p>Popa's profile</p>
+            <p>Popa's Profile</p>
           </Col>
           <Col size={10} sm={6} className="text-center text-sm-end">
             <p>Copyright 2024. All Rights Reserved</p>
