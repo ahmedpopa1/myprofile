@@ -80,6 +80,20 @@ export const NavBar = () => {
                   <img src={navIcon1} alt="LinkedIn" />
                 </a>
                 <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedmahmoudsalam12@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png"
+                    alt="Gmail"
+                    style={{
+                      filter: "brightness(0) invert(1)",
+                    }}
+                  />
+                </a>
+
+                <a
                   href="https://www.facebook.com/ahmed.popa.142"
                   target="_blank"
                   rel="noopener noreferrer"
