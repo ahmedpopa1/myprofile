@@ -499,6 +499,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 
+.extra-info {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.extra-info:hover {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
 .project p {
   color: #B8B8B8;
   font-size: 18px;
