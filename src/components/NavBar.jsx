@@ -32,7 +32,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="#home">
             <p className="navbar-brand-text">Popa's Profile</p>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
