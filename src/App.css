@@ -162,6 +162,14 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
+.gmail-icon {
+  filter: brightness(0) invert(1);
+}
+
+.gmail-icon:hover {
+  filter: none;
+}
+
 .social-icon a:hover::before {
   transform: scale(1);
 }
