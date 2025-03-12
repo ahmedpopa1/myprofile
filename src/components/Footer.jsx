@@ -8,7 +8,7 @@ export const Footer = () => {
             <p>Popa's Profile</p>
           </Col>
           <Col size={10} sm={6} className="text-center text-sm-end">
-            <p>Copyright 2024. All Rights Reserved</p>
+            <p>Copyright 2025. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
