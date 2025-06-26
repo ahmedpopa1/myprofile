@@ -12,7 +12,7 @@ import l8 from "../assets/img/l8.png";
 import l9 from "../assets/img/l9.jpg";
 import l10 from "../assets/img/l10.jpg";
 import l11 from "../assets/img/l11.jpg";
-import l12 from "../assets/img/l12.jpg";
+import l12 from "../assets/img/l12.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -28,6 +28,13 @@ export const Projects = () => {
       imgUrl: l1,
       extraInfo:
         "A dynamic platform designed for sharing thoughts and discovering diverse perspectives. Users can create, edit, and delete blogs, explore a wide range of topics, and interact with other users by discovering their content. The platform is built with React.js for a seamless user experience and MongoDB to efficiently manage and store user data. Features include searching blogs by tags, usernames, or content, visiting user profiles, and copying content for inspiration, making it a comprehensive hub for creative expression.",
+    },
+    {
+      title: "Qatra",
+      description: "My graduation project",
+      imgUrl: l12,
+      extraInfo:
+        "Qatra:  is a graduation project designed to tackle critical delays in blood donation access within the healthcare system. It introduces a smart, integrated platform that connects blood banks, donors, and recipients (via doctors) to streamline communication and ensure timely blood availability. By enabling donors to register and receive notifications when their blood type is needed, and allowing doctors to request blood units efficiently, Qatra aims to save lives through technology. The project addresses challenges like lack of awareness and unstructured communication, fostering a more reliable and transparent donation process while encouraging greater participation from donors.",
     },
     {
       title: "Porsche Cars",
@@ -99,13 +106,6 @@ export const Projects = () => {
       imgUrl: l11,
       extraInfo:
         "A versatile and easy-to-use stopwatch app designed to help users keep track of time efficiently. With options for multiple timers, users can manage different activities simultaneously, perfect for workouts, cooking, or any task requiring precise time tracking. The app features intuitive controls, start/stop functionality, and reset options. Built with React Native for smooth performance across platforms and Firebase for storing timer data and settings, this app provides a reliable solution for anyone needing to measure time accurately.",
-    },
-    {
-      title: "Dashboard",
-      description: "A dashboard template for React projects",
-      imgUrl: l12,
-      extraInfo:
-        "A customizable, responsive dashboard template built with React.js and MongoDB.",
     },
   ];
 

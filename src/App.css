@@ -603,6 +603,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 200px;
+}
+.proj-imgbx img {
+  display: block;       /* remove inline spacing quirks */
+  width: 100%;          /* fill the card’s width */
+  height: 100%;         /* fill the card’s height */
+  object-fit: cover;    /* crop/scale to cover the box */
 }
 
 .proj-imgbx::before {
