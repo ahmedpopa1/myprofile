@@ -57,7 +57,6 @@ export const Projects = () => {
       title: "Market Place",
       description: "A mobile app for buying clothes, electronics, and more!",
       imgUrl: l4,
-      link: "https://expo.dev/artifacts/eas/biPt6LEA95usHX68y6jT22.apk",
       extraInfo:
         "A versatile mobile app designed as a one-stop marketplace for users to buy and sell a wide range of products, including clothes, electronics, accessories, and more. The app offers a seamless shopping experience with features like product search, category filtering, and secure checkout. Sellers can easily list their items with images and descriptions, while buyers can browse deals and track their orders in real-time. Built with React Native for a smooth cross-platform experience and Firebase for secure user authentication and efficient product data management, this app is the ultimate shopping destination at your fingertips.",
     },
@@ -65,6 +64,7 @@ export const Projects = () => {
       title: "To-Do List",
       description: "A mobile app for saving tasks",
       imgUrl: l5,
+      link:"https://expo.dev/artifacts/eas/m5ox5QuNKom7H7a3R9VwqP.apk",
       extraInfo:
         "A productivity-focused mobile app designed to help users organize their daily tasks and stay on top of their schedules. Users can create task lists, set deadlines, and enable reminders to ensure nothing is overlooked. The app also supports prioritization, allowing users to categorize tasks by importance. With a clean and intuitive interface, it’s easy to add, edit, and mark tasks as complete. Built with React Native for a smooth cross-platform experience and Firebase for secure and real-time task management, this app is the perfect tool for boosting productivity and achieving goals.",
     },
