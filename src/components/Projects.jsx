@@ -102,6 +102,7 @@ export const Projects = () => {
       title: "Calculator",
       description: "An app for logic operations",
       imgUrl: l10,
+      link:"https://expo.dev/artifacts/eas/eYhsSvY7p62U3vAiYyRseV.apk",
       extraInfo:
         "A simple yet powerful calculator designed for performing a wide range of mathematical and logical operations. Users can easily perform basic arithmetic, advanced calculations, and logical expressions with a clean, intuitive interface. The app also includes features like history tracking and the ability to save frequent calculations. Built with React Native for a seamless experience across platforms, and Firebase for storing calculation history and settings, this app provides an efficient tool for both everyday users and professionals alike.",
     },
