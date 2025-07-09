@@ -110,6 +110,7 @@ export const Projects = () => {
       title: "Stopwatch",
       description: "A timer application",
       imgUrl: l11,
+      link:"https://expo.dev/artifacts/eas/sekdMma53Bs96DvF1XqXWu.apk",
       extraInfo:
         "A versatile and easy-to-use stopwatch app designed to help users keep track of time efficiently. With options for multiple timers, users can manage different activities simultaneously, perfect for workouts, cooking, or any task requiring precise time tracking. The app features intuitive controls, start/stop functionality, and reset options. Built with React Native for smooth performance across platforms and Firebase for storing timer data and settings, this app provides a reliable solution for anyone needing to measure time accurately.",
     },
