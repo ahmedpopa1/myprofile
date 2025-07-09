@@ -33,6 +33,7 @@ export const Projects = () => {
       title: "Qatra",
       description: "My graduation project",
       imgUrl: l12,
+      link: "https://expo.dev/artifacts/eas/6cyGkdTUbRTRTp89eBC65G.apk",
       extraInfo:
         "Qatra:  is a graduation project designed to tackle critical delays in blood donation access within the healthcare system. It introduces a smart, integrated platform that connects blood banks, donors, and recipients (via doctors) to streamline communication and ensure timely blood availability. By enabling donors to register and receive notifications when their blood type is needed, and allowing doctors to request blood units efficiently, Qatra aims to save lives through technology. The project addresses challenges like lack of awareness and unstructured communication, fostering a more reliable and transparent donation process while encouraging greater participation from donors.",
     },
@@ -56,6 +57,7 @@ export const Projects = () => {
       title: "Market Place",
       description: "A mobile app for buying clothes, electronics, and more!",
       imgUrl: l4,
+      link: "https://expo.dev/artifacts/eas/biPt6LEA95usHX68y6jT22.apk",
       extraInfo:
         "A versatile mobile app designed as a one-stop marketplace for users to buy and sell a wide range of products, including clothes, electronics, accessories, and more. The app offers a seamless shopping experience with features like product search, category filtering, and secure checkout. Sellers can easily list their items with images and descriptions, while buyers can browse deals and track their orders in real-time. Built with React Native for a smooth cross-platform experience and Firebase for secure user authentication and efficient product data management, this app is the ultimate shopping destination at your fingertips.",
     },
@@ -172,8 +174,13 @@ export const Projects = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="project-link"
+                          {...(selectedProject.link.endsWith(".apk")
+                            ? { download: true }
+                            : {})}
                         >
-                          👉 Visit the Live Project
+                          {selectedProject.link.endsWith(".apk")
+                            ? "📦 Download APK"
+                            : "👉 Visit the Live Project"}
                         </a>
                       )}
                     </div>
