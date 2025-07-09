@@ -87,6 +87,7 @@ export const Projects = () => {
       title: "Wallet Tracker",
       description: "Wallet tracker app",
       imgUrl: l9,
+      link:"https://expo.dev/artifacts/eas/r2d5nEef2WHdDEtYRrHFsC.apk",
       extraInfo:
         "This is a user-friendly application built with React Native and Firebase. The app allows users to manage their daily expenses by recording them in real time. Users can enter their starting balance for the day, add detailed expense entries with descriptions, and track their remaining balance effortlessly. Firebase is used to securely store user data and ensure seamless updates across devices. The app is designed to simplify expense management and promote financial awareness.",
     },
