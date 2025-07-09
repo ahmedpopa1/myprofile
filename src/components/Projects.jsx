@@ -40,6 +40,7 @@ export const Projects = () => {
       title: "Porsche Cars",
       description: "A website for booking Porsche cars and buying them",
       imgUrl: l2,
+      link: "https://ahmedpopa1.github.io/poarschecars/",
       extraInfo:
         "An interactive platform for Porsche enthusiasts to explore, customize, and book their favorite models. Users can browse a wide selection of Porsche cars, customize features like color and interiors, view detailed pricing information, and book test drives. The website offers a seamless experience built with React.js for an engaging user interface and MongoDB for secure and efficient data management. Whether you're purchasing a Porsche or simply exploring options, this platform provides everything you need to make an informed decision.",
     },
@@ -76,6 +77,7 @@ export const Projects = () => {
       title: "Game Valley",
       description: "A website for games",
       imgUrl: l7,
+      link: "https://ahmedpopa1.github.io/gamevalley/",
       extraInfo:
         "An exciting online platform for gaming enthusiasts to discover, explore, and stay updated on the latest games. Users can browse a curated collection of games across various genres, read detailed reviews, check player ratings, and access gameplay trailers. The platform also features a user-friendly interface for searching and filtering games by category, release date, or popularity. Built with React.js for an engaging and responsive user experience, and MongoDB for secure and scalable data management, this website is the ultimate hub for gamers to connect and discover their next adventure.",
     },
@@ -90,6 +92,7 @@ export const Projects = () => {
       title: "Movies World",
       description: "A website for movies like IMDB :)",
       imgUrl: l8,
+      link: "https://ahmedpopa1.github.io/imdb/",
       extraInfo:
         "An immersive website for movie lovers to browse an extensive collection of films, read insightful reviews, watch trailers, and explore detailed ratings. Users can search for movies by genre, release date, cast, and more. The platform provides comprehensive information on each movie, including synopses, cast details, reviews, and user-generated ratings. Built with React.js for a fast and interactive user experience and MongoDB for efficient data storage and management, this site is your go-to destination for everything related to movies.",
     },
@@ -163,6 +166,16 @@ export const Projects = () => {
                           {selectedProject.extraInfo}
                         </p>
                       </div>
+                      {selectedProject.link && (
+                        <a
+                          href={selectedProject.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="project-link"
+                        >
+                          👉 Visit the Live Project
+                        </a>
+                      )}
                     </div>
                   ) : (
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">

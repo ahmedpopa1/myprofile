@@ -611,6 +611,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;         /* fill the card’s height */
   object-fit: cover;    /* crop/scale to cover the box */
 }
+.project-link {
+  font-size: larger;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #AA367C;
+  text-decoration:none;
+  transition: color 0.3s;
+}
+
+.project-link:hover {
+  color: #4A2FBD ;
+}
 
 .proj-imgbx::before {
   content: "";
