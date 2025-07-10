@@ -50,6 +50,7 @@ export const Projects = () => {
       title: "Fitness Gym",
       description: "A mobile app for gym info and personal training routines",
       imgUrl: l3,
+      link:"https://expo.dev/artifacts/eas/fcPm1PYF2msepjXxtdYZZt.apk",
       extraInfo:
         "A comprehensive mobile app designed to enhance your fitness journey. Users can track their personal training routines, monitor workout progress, and set fitness goals. The app provides detailed information about nearby gyms, including amenities, class schedules, and membership options. It also features personalized workout plans tailored to individual needs, progress tracking with visual insights, and notifications to keep users motivated. Built with React Native for cross-platform compatibility and Firebase for secure data storage and real-time updates, this app is your ultimate fitness companion.",
     },
@@ -57,6 +58,7 @@ export const Projects = () => {
       title: "Market Place",
       description: "A mobile app for buying clothes, electronics, and more!",
       imgUrl: l4,
+      link:"https://expo.dev/artifacts/eas/wytEZoAqDuKxrLd5nq7XkF.apk",
       extraInfo:
         "A versatile mobile app designed as a one-stop marketplace for users to buy and sell a wide range of products, including clothes, electronics, accessories, and more. The app offers a seamless shopping experience with features like product search, category filtering, and secure checkout. Sellers can easily list their items with images and descriptions, while buyers can browse deals and track their orders in real-time. Built with React Native for a smooth cross-platform experience and Firebase for secure user authentication and efficient product data management, this app is the ultimate shopping destination at your fingertips.",
     },
