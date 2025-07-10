@@ -50,7 +50,7 @@ export const Projects = () => {
       title: "Fitness Gym",
       description: "A mobile app for gym info and personal training routines",
       imgUrl: l3,
-      link:"https://expo.dev/artifacts/eas/fcPm1PYF2msepjXxtdYZZt.apk",
+      link: "https://expo.dev/artifacts/eas/fcPm1PYF2msepjXxtdYZZt.apk",
       extraInfo:
         "A comprehensive mobile app designed to enhance your fitness journey. Users can track their personal training routines, monitor workout progress, and set fitness goals. The app provides detailed information about nearby gyms, including amenities, class schedules, and membership options. It also features personalized workout plans tailored to individual needs, progress tracking with visual insights, and notifications to keep users motivated. Built with React Native for cross-platform compatibility and Firebase for secure data storage and real-time updates, this app is your ultimate fitness companion.",
     },
@@ -58,7 +58,7 @@ export const Projects = () => {
       title: "Market Place",
       description: "A mobile app for buying clothes, electronics, and more!",
       imgUrl: l4,
-      link:"https://expo.dev/artifacts/eas/wytEZoAqDuKxrLd5nq7XkF.apk",
+      link: "https://expo.dev/artifacts/eas/wytEZoAqDuKxrLd5nq7XkF.apk",
       extraInfo:
         "A versatile mobile app designed as a one-stop marketplace for users to buy and sell a wide range of products, including clothes, electronics, accessories, and more. The app offers a seamless shopping experience with features like product search, category filtering, and secure checkout. Sellers can easily list their items with images and descriptions, while buyers can browse deals and track their orders in real-time. Built with React Native for a smooth cross-platform experience and Firebase for secure user authentication and efficient product data management, this app is the ultimate shopping destination at your fingertips.",
     },
@@ -66,7 +66,7 @@ export const Projects = () => {
       title: "To-Do List",
       description: "A mobile app for saving tasks",
       imgUrl: l5,
-      link:"https://expo.dev/artifacts/eas/m5ox5QuNKom7H7a3R9VwqP.apk",
+      link: "https://expo.dev/artifacts/eas/m5ox5QuNKom7H7a3R9VwqP.apk",
       extraInfo:
         "A productivity-focused mobile app designed to help users organize their daily tasks and stay on top of their schedules. Users can create task lists, set deadlines, and enable reminders to ensure nothing is overlooked. The app also supports prioritization, allowing users to categorize tasks by importance. With a clean and intuitive interface, it’s easy to add, edit, and mark tasks as complete. Built with React Native for a smooth cross-platform experience and Firebase for secure and real-time task management, this app is the perfect tool for boosting productivity and achieving goals.",
     },
@@ -89,7 +89,7 @@ export const Projects = () => {
       title: "Wallet Tracker",
       description: "Wallet tracker app",
       imgUrl: l9,
-      link:"https://expo.dev/artifacts/eas/r2d5nEef2WHdDEtYRrHFsC.apk",
+      link: "https://expo.dev/artifacts/eas/r2d5nEef2WHdDEtYRrHFsC.apk",
       extraInfo:
         "This is a user-friendly application built with React Native and Firebase. The app allows users to manage their daily expenses by recording them in real time. Users can enter their starting balance for the day, add detailed expense entries with descriptions, and track their remaining balance effortlessly. Firebase is used to securely store user data and ensure seamless updates across devices. The app is designed to simplify expense management and promote financial awareness.",
     },
@@ -105,7 +105,7 @@ export const Projects = () => {
       title: "Calculator",
       description: "An app for logic operations",
       imgUrl: l10,
-      link:"https://expo.dev/artifacts/eas/eYhsSvY7p62U3vAiYyRseV.apk",
+      link: "https://expo.dev/artifacts/eas/eYhsSvY7p62U3vAiYyRseV.apk",
       extraInfo:
         "A simple yet powerful calculator designed for performing a wide range of mathematical and logical operations. Users can easily perform basic arithmetic, advanced calculations, and logical expressions with a clean, intuitive interface. The app also includes features like history tracking and the ability to save frequent calculations. Built with React Native for a seamless experience across platforms, and Firebase for storing calculation history and settings, this app provides an efficient tool for both everyday users and professionals alike.",
     },
@@ -113,7 +113,7 @@ export const Projects = () => {
       title: "Stopwatch",
       description: "A timer application",
       imgUrl: l11,
-      link:"https://expo.dev/artifacts/eas/sekdMma53Bs96DvF1XqXWu.apk",
+      link: "https://expo.dev/artifacts/eas/sekdMma53Bs96DvF1XqXWu.apk",
       extraInfo:
         "A versatile and easy-to-use stopwatch app designed to help users keep track of time efficiently. With options for multiple timers, users can manage different activities simultaneously, perfect for workouts, cooking, or any task requiring precise time tracking. The app features intuitive controls, start/stop functionality, and reset options. Built with React Native for smooth performance across platforms and Firebase for storing timer data and settings, this app provides a reliable solution for anyone needing to measure time accurately.",
     },
@@ -167,12 +167,6 @@ export const Projects = () => {
                         Return to Projects
                       </button>
                       <ProjectCard {...selectedProject} />
-                      <div className="extra-info">
-                        <h3>More About The Project</h3>
-                        <p className="extra-info">
-                          {selectedProject.extraInfo}
-                        </p>
-                      </div>
                       {selectedProject.link && (
                         <a
                           href={selectedProject.link}
@@ -188,6 +182,14 @@ export const Projects = () => {
                             : "👉 Visit the Live Project"}
                         </a>
                       )}
+
+                      <div className="extra-info">
+                        <h3>More About The Project</h3>
+
+                        <p className="extra-info">
+                          {selectedProject.extraInfo}
+                        </p>
+                      </div>
                     </div>
                   ) : (
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
