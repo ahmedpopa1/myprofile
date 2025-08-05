@@ -66,7 +66,7 @@ export const Contact = () => {
                   </a>
                   <h2>My CV</h2>
                   <a
-                    href="https://drive.google.com/file/d/1hjzYtDzg9lvK4isF2fK60jLa6gYm-wA5/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1-h7-eKdirPZYj2HHN1tCBsrhYQzaJ2uW/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

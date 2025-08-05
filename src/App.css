@@ -260,6 +260,17 @@ nav.navbar .navbar-toggler-icon:after {
   top: 8px;
 }
 
+.github-icon {
+
+  filter: invert(100%);
+
+}
+
+.github-icon:hover,
+.github-icon:active {
+  filter: invert(0%);
+}
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
   background-color: #fff;
@@ -605,23 +616,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 24px;
   height: 200px;
 }
+
 .proj-imgbx img {
-  display: block;       /* remove inline spacing quirks */
-  width: 100%;          /* fill the card’s width */
-  height: 100%;         /* fill the card’s height */
-  object-fit: cover;    /* crop/scale to cover the box */
+  display: block;
+  /* remove inline spacing quirks */
+  width: 100%;
+  /* fill the card’s width */
+  height: 100%;
+  /* fill the card’s height */
+  object-fit: cover;
+  /* crop/scale to cover the box */
 }
+
 .project-link {
   font-size: larger;
   margin-top: 10px;
   font-weight: bold;
   color: #AA367C;
-  text-decoration:none;
+  text-decoration: none;
   transition: color 0.3s;
 }
 
 .project-link:hover {
-  color: #4A2FBD ;
+  color: #4A2FBD;
 }
 
 .proj-imgbx::before {

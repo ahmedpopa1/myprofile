@@ -81,14 +81,14 @@ export const NavBar = () => {
                 </a>
 
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedmahmoudsalam12@gmail.com"
+                  href="https://github.com/ahmedpopa1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    class="gmail-icon"
-                    src="https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png"
-                    alt="Gmail"
+                    src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                    alt="GitHub"
+                    className="github-icon"
                   />
                 </a>
 
@@ -109,7 +109,7 @@ export const NavBar = () => {
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
-                  <span>Let’s Connect</span>
+                  <span>My Resume</span>
                 </button>
               </HashLink>
             </span>
