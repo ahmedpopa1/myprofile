@@ -13,6 +13,7 @@ import l9 from "../assets/img/l9.jpg";
 import l10 from "../assets/img/l10.jpg";
 import l11 from "../assets/img/l11.jpg";
 import l12 from "../assets/img/l12.png";
+import l13 from "../assets/img/l13.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -28,6 +29,13 @@ export const Projects = () => {
       imgUrl: l1,
       extraInfo:
         "A dynamic platform designed for sharing thoughts and discovering diverse perspectives. Users can create, edit, and delete blogs, explore a wide range of topics, and interact with other users by discovering their content. The platform is built with React.js for a seamless user experience and MongoDB to efficiently manage and store user data. Features include searching blogs by tags, usernames, or content, visiting user profiles, and copying content for inspiration, making it a comprehensive hub for creative expression.",
+    },
+    {
+      title:"Palsetine Soul",
+      description:"A mobile application for Palsetine",
+      imgUrl:l13,
+      link:"https://expo.dev/artifacts/eas/tmvPSQdMkUn5Kgk4mVwTaq.apk",
+      extraInfo:"A mobile application delivering real-time news and updates about Palestine, featuring categorized sections, keyword and tag search, and image display. Designed with a Palestinian-themed color palette and responsive layouts, and integrated with external news APIs for dynamic content.",
     },
     {
       title: "Qatra",
